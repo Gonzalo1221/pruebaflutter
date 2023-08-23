@@ -36,10 +36,12 @@ class _Segundonivel extends State<Segundonivel> {
                   height: 10,
                 ),
                 const SizedBox(
-                  width: 150,
-                  height: 50,
                   child: Center(
-                    child: Text('Sabes ¿Que es la Programacion?'),
+                    child: Text(
+                      'Sabes ¿Que es la Programacion?',
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    ),
                   ),
                 ),
               ],

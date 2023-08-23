@@ -20,15 +20,14 @@ class _Primernivel extends State<Primernivel> {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Icon(Icons.hotel),
-                Container(
-                  width: 100,
-                  height: 50,
-                  color: Colors.blue,
-                  child: const Center(
-                    child: Text('Primer nivel'),
-                  ),
+                SizedBox(
+                  width: 120,
+                  height: 120,
+                  child: Image.asset('assets/descansar.png', fit: BoxFit.cover),
                 ),
+                const SizedBox(height: 10),
+                const Text('ES MUY IMPORTANTE DESCANSAR',
+                    style: TextStyle(fontWeight: FontWeight.bold))
               ],
             ),
           ],
