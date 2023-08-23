@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'segundo_nivel.dart';
+import 'vista1.dart';
+import 'vista2.dart';
+import 'vista3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,36 +23,76 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        color: Colors.pink[100],
-        width: double.infinity,
-        padding: const EdgeInsets.all(16.0),
-        child: Container(
-          padding: const EdgeInsets.all(16.0),
-          child: Column(
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              const Text(
-                "Bienvenido al Arbol de Widgets",
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const Primernivel()),
+                  );
+                },
+                child: const Center(
+                  child: Icon(Icons.hotel, size: 80),
                 ),
               ),
-              const SizedBox(height: 16), // Espacio entre el texto y el botón
-              TextButton(
-                onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const Segundonivel()));
-                },
-                child: const Text("Haz click aquí"),
-              ),
+              const Text(
+                'Dormir',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              )
             ],
           ),
-        ),
+          const SizedBox(width: 40),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const Segundonivel()),
+                  );
+                },
+                child: const Center(
+                  child: Icon(Icons.control_point, size: 80),
+                ),
+              ),
+              const Text(
+                'Dormir',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              )
+            ],
+          ),
+          const SizedBox(width: 40),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const Tercernivel()),
+                  );
+                },
+                child: const Center(
+                  child: Icon(Icons.yard_outlined, size: 80),
+                ),
+              ),
+              const Text(
+                'Dormir',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              )
+            ],
+          ),
+        ],
       ),
     );
   }

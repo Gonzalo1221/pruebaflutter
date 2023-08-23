@@ -12,6 +12,10 @@ class _Segundonivel extends State<Segundonivel> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Gonzalo Araujo'),
+        backgroundColor: Colors.red,
+      ),
       body: Container(
         padding: const EdgeInsets.all(16.0),
         child: Row(
@@ -20,13 +24,22 @@ class _Segundonivel extends State<Segundonivel> {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Icon(Icons.hotel),
-                Container(
-                  width: 100,
+                SizedBox(
+                  width: 120,
+                  height: 120,
+                  child: Image.asset(
+                    'assets/programacion.png',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                const SizedBox(
+                  width: 150,
                   height: 50,
-                  color: Colors.blue,
-                  child: const Center(
-                    child: Text('Este es un Container'),
+                  child: Center(
+                    child: Text('Sabes ¿Que es la Programacion?'),
                   ),
                 ),
               ],

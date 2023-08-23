@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Tercernivel extends StatefulWidget {
-  const Tercernivel({super.key});
+class Primernivel extends StatefulWidget {
+  const Primernivel({super.key});
 
   @override
   // ignore: library_private_types_in_public_api
-  _Tercernivel createState() => _Tercernivel();
+  _Primernivel createState() => _Primernivel();
 }
 
-class _Tercernivel extends State<Tercernivel> {
+class _Primernivel extends State<Primernivel> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,7 +26,7 @@ class _Tercernivel extends State<Tercernivel> {
                   height: 50,
                   color: Colors.blue,
                   child: const Center(
-                    child: Text('Este es un Container'),
+                    child: Text('Primer nivel'),
                   ),
                 ),
               ],
