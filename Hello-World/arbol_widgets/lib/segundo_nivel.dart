@@ -20,6 +20,7 @@ class _Segundonivel extends State<Segundonivel> {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                const Text("Hola mucho gusto,\n Mi nombre es Gonzalo Araujo"),
                 const Icon(Icons.hotel),
                 Container(
                   width: 100,
