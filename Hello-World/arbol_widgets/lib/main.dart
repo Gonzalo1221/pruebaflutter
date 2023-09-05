@@ -26,7 +26,7 @@ class LoginPage extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            margin: const EdgeInsets.only(bottom: 280, top: 20),
+            margin: const EdgeInsets.only(bottom: 300, top: 40),
             padding: const EdgeInsets.all(16.0),
             child: const Text(
               "ARBOL DE WIDGETS",
