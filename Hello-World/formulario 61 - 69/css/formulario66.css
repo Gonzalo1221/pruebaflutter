@@ -38,299 +38,76 @@ body{
   }
 
 /* aqui termina todo lo del encabezado  */
-
+.container-contenido{
+  border: 2px solid #000;
+  width: 800px;
+  margin: 20px auto;
+}
+.container-contenido2{
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  margin: -20px auto;
+}
+.container-contenido3{
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  margin: -20px auto;
+}
+.conatiener_desarrollo_text{
+  /* background-color: white; */
+  border: 2px solid #000;
+  width: 800px; /* Ancho deseado en píxeles o porcentaje */
+  height: 22px; /* Alto deseado en píxeles o porcentaje */
+  margin: 20px auto;
+  margin-top: -20px;
+  background-color: rgb(187, 186, 185);
+}
 .conatiener_desarrollo_text1{
   /* background-color: white; */
   border: 2px solid #000;
   width: 800px; /* Ancho deseado en píxeles o porcentaje */
   height: 22px; /* Alto deseado en píxeles o porcentaje */
   margin: 20px auto;
-  margin-top: -20px;
+  margin-top: 20px;
   background-color: rgb(187, 186, 185);
 }
-.conatiener_desarrollo_text2{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 52px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: -2px; */
-  margin-top: -21px;
-
-}
-
-.conatiener_desarrollo_text3{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -20px;
-  background-color: rgb(187, 186, 185);
-}
-.conatiener_desarrollo_text4{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -20px;
-  background-color: rgb(187, 186, 185);
-}
-.conatiener_desarrollo_text5{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 52px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: -2px; */
-  margin-top: -21px;
-
-}
-.conatiener_desarrollo_text6{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -20px;
-  background-color: rgb(187, 186, 185);
-}
-.conatiener_desarrollo_text7{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 52px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: -2px; */
-  margin-top: -21px;
-
-}
-
-.conatiener_desarrollo_text8{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -20px;
-  background-color: rgb(187, 186, 185);
-}
-.conatiener_desarrollo_text9{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 52px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: -2px; */
-  margin-top: -21px;
-
-}
-
-.conatiener_desarrollo_text10{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: 2px; */
-  margin-top: 30px;
-  background-color: rgb(187, 186, 185);
-}
-
-.conatiener_desarrollo_text11{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 194px; /* Ancho deseado en píxeles o porcentaje */
-  height: 50px; /* Alto deseado en píxeles o porcentaje */
-  margin: 18px auto;
-  margin-left: 13px;
-  margin-top: -22px;
-  background-color: rgb(187, 186, 185);
-}
-
-.conatiener_desarrollo_text12{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 603px; /* Ancho deseado en píxeles o porcentaje */
-  height: 50px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-left: 210px;
-  margin-top: -72px;
-
-}
-
-.conatiener_desarrollo_text13{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 194px; /* Ancho deseado en píxeles o porcentaje */
-  height: 55px; /* Alto deseado en píxeles o porcentaje */
-  margin: 18px auto;
-  margin-left: 13px;
-  margin-top: -22px;
-  background-color: rgb(187, 186, 185);
-}
-
-.conatiener_desarrollo_text14{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 603px; /* Ancho deseado en píxeles o porcentaje */
-  height: 55px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-left: 210px;
-  margin-top: -76px;
-
-}
-
-.conatiener_desarrollo_text15{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 194px; /* Ancho deseado en píxeles o porcentaje */
-  height: 50px; /* Alto deseado en píxeles o porcentaje */
-  margin: 18px auto;
-  margin-left: 13px;
-  margin-top: -22px;
-  background-color: rgb(187, 186, 185);
-}
-
-.conatiener_desarrollo_text16{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 603px; /* Ancho deseado en píxeles o porcentaje */
-  height: 50px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-left: 210px;
-  margin-top: -72px;
-
-}
-
-.conatiener_desarrollo_text17{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 564px; /* Ancho deseado en píxeles o porcentaje */
-  height: 50px; /* Alto deseado en píxeles o porcentaje */
-  margin: 18px auto;
-  margin-left: 13px;
-  margin-top: -22px;
-  background-color: rgb(187, 186, 185);
-}
-
-.conatiener_desarrollo_text18{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 233px; /* Ancho deseado en píxeles o porcentaje */
-  height: 50px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-left: 580px;
-  margin-top: -72px;
-
-}
-
-.conatiener_desarrollo_text19{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -20px;
-  background-color: rgb(187, 186, 185);
-}
-.conatiener_desarrollo_text20{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -20px;
-  background-color: rgb(187, 186, 185);
-}
-.conatiener_desarrollo_text21{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 4%; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: -2px; */
-  margin-top: -21px;
-
-}
-.conatiener_desarrollo_text22{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 4%; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: -2px; */
-  margin-top: -21px;
-
-}
-.conatiener_desarrollo_text23{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 4%; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: -2px; */
-  margin-top: -21px;
-
-}
-.conatiener_desarrollo_text24{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 4%; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  /* margin-left: -2px; */
-  margin-top: -21px;
-
-}
-.conatiener_desarrollo_text25{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -20px;
-  background-color: rgb(187, 186, 185);
-}
-.conatiener_desarrollo_text26{
-  /* background-color: white; */
-  border: 2px solid #000;
-  width: 800px; /* Ancho deseado en píxeles o porcentaje */
-  height: 22px; /* Alto deseado en píxeles o porcentaje */
-  margin: 20px auto;
-  margin-top: -20px;
-  background-color: rgb(187, 186, 185);
-}
-
   /* aca termina los container */
 
-  .conatiener_desarrollo_text1 p{
-    text-align: center;
-    height: 5px;
-    font-size: 15px;
+  .container-contenido p{
+    text-align: start;
+    font-size: 14px;
     color: rgb(0, 0, 0);
   
     font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
     font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .container-contenido2 p{
+    text-align: start;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+  
+    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
+    font-weight: bold; /* Grosor de la fuente (negrita) */
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  .container-contenido3 p{
+    text-align: start;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+  
+    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
+    font-weight: bold; /* Grosor de la fuente (negrita) */
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
   }
 
-  .conatiener_desarrollo_text2 p{
-    text-align: start;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 90%;
-    margin-left: 11px;
-    margin-top:12px;
-  }
-  .conatiener_desarrollo_text3 p{
+  .conatiener_desarrollo_text p{
     text-align: center;
     height: 5px;
     font-size: 15px;
@@ -342,271 +119,7 @@ body{
     margin-top: 3px;
     
   }
-  .conatiener_desarrollo_text4 p{
-    text-align: start;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text5 p{
-    text-align: start;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 90%;
-    margin-left: 11px;
-    margin-top:12px;
-  }
-  .conatiener_desarrollo_text6 p{
-    text-align: start;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text7 p{
-    text-align: start;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 90%;
-    margin-left: 11px;
-    margin-top:12px;
-  }
-  .conatiener_desarrollo_text8 p{
-    text-align: center;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text9 p{
-    text-align: start;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 90%;
-    margin-left: 11px;
-    margin-top:12px;
-  }
-  .conatiener_desarrollo_text10 p{
-    text-align: start;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-left: 258px;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text11 p{
-    text-align: start;
-    height: 5px;
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-  .conatiener_desarrollo_text12 p{
-    text-align: start;
-    height: 5px;
-    font-size: 12px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-  .conatiener_desarrollo_text13 p{
-    text-align: start;
-    height: 5px;
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-  .conatiener_desarrollo_text14 p{
-    text-align: start;
-    height: 5px;
-    font-size: 12px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-  .conatiener_desarrollo_text15 p{
-    text-align: start;
-    height: 5px;
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-  .conatiener_desarrollo_text16 p{
-    text-align: start;
-    height: 5px;
-    font-size: 12px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-  
-  .conatiener_desarrollo_text17 p{
-    text-align: start;
-    height: 5px;
-    font-size: 14px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-  .conatiener_desarrollo_text18 p{
-    text-align: center;
-    height: 5px;
-    font-size: 12px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    width: 90%;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-  
-  .conatiener_desarrollo_text19 p{
-    text-align: start;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-left: 10px;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text20 p{
-    text-align: center;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text21 p{
-    text-align: center;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text22 p{
-    text-align: center;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text23 p{
-    text-align: center;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text24 p{
-    text-align: center;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text25 p{
-    text-align: center;
-    height: 5px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-  
-    font-family: Arial, sans-serif; /* Tipo de letra (fuente) */
-    font-weight: bold; /* Grosor de la fuente (negrita) */
-    width: 100%;
-    margin-top: 3px;
-    
-  }
-  .conatiener_desarrollo_text26 p{
+  .conatiener_desarrollo_text1 p{
     text-align: center;
     height: 5px;
     font-size: 15px;
