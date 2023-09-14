@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: MedievoPage(),
     );
   }
@@ -48,32 +49,33 @@ class _MedievoPageState extends State<MedievoPage> {
             Container(
               padding: const EdgeInsets.all(8),
               color: Colors.red[100],
-              child: const Text("He'd have you all unravel at the"),
+              child:
+                  const Text('Él haría que todos ustedes se desmoronen en el'),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               color: Colors.red[200],
-              child: const Text('Heed not the rabble'),
+              child: const Text('No prestes atención a la chusma'),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               color: Colors.red[300],
-              child: const Text('Sound of screams but the'),
+              child: const Text('Sonido de gritos pero el'),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               color: Colors.red[400],
-              child: const Text('Who scream'),
+              child: const Text('quien grita'),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               color: Colors.red[500],
-              child: const Text('Revolution is coming...'),
+              child: const Text('Se acerca la revolución...'),
             ),
             Container(
               padding: const EdgeInsets.all(8),
               color: Colors.red[600],
-              child: const Text('Revolution, they...'),
+              child: const Text('Revolución, ellas/ellos ...'),
             ),
           ],
         ));
