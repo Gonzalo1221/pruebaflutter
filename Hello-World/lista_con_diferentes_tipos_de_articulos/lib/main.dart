@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   final items = List<ListItem>.generate(
-    9,
+    1000,
     (i) => i % 6 == 0
         ? HeadingItem('Heading $i')
         : MessageItem('Sender $i', 'Message body $i'),
