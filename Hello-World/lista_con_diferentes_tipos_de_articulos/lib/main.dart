@@ -1,12 +1,39 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  final items = List<ListItem>.generate(
-    1000,
-    (i) => i % 6 == 0
-        ? HeadingItem('Heading $i')
-        : MessageItem('Sender $i', 'Message body $i'),
-  );
+
+   final List<ListItem> items = [
+    HeadingItem('Lista de regalos'),
+    HeadingItem('HOGAR'),
+    MessageItem('','-Vajilla'),
+    MessageItem('','-Vasos'),
+    MessageItem('','-Copas de Vidrio'),
+    MessageItem('','-Licuadora'),
+    MessageItem('','-Lavadora'),
+    MessageItem('','-Colchon'),
+    //AQUI SE SEPARA LA LISTA PARA DAR PASO A OTRA CATEGORIA
+    HeadingItem('MODA'),
+    MessageItem('','-Vestido'),
+    MessageItem('','-Corbata'),
+    MessageItem('','-Zapatos'),
+    MessageItem('','-Bolso'),
+    MessageItem('','-Traje de Baño'),
+    //ESPACIO ENTRE CATEGORIAS
+    HeadingItem('ACCESORIOS'),
+    MessageItem('','-Aretes'),
+    MessageItem('','-Reloj'),
+    MessageItem('','-Gafas'),
+    MessageItem('','-Collar'),
+    //ESPACIO ENTRE CATEGORIAS
+    HeadingItem('TECNOLOGIA'),
+    MessageItem('','-Portatil'),
+    MessageItem('','-iPods Audifonos'),
+    //ESPACIO ENTRE CATEGORIAS
+    HeadingItem('OTROS'),
+    MessageItem('','-Decoracion'),
+    MessageItem('','-Carro'),
+    MessageItem('','-Viaje'),
+  ];
 
   runApp(MyApp(items: items));
 }
