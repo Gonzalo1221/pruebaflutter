@@ -21,11 +21,12 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        margin: const EdgeInsets.only(top: 400, left: 100),
         padding: const EdgeInsets.all(16.0),
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Icon(Icons.home_outlined),
                 Container(
@@ -40,6 +41,7 @@ class LoginPage extends StatelessWidget {
             ),
             const SizedBox(width: 10),
             Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Icon(Icons.home_outlined),
                 Container(
@@ -54,6 +56,7 @@ class LoginPage extends StatelessWidget {
             ),
             const SizedBox(width: 10),
             Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Icon(Icons.home_outlined),
                 Container(
