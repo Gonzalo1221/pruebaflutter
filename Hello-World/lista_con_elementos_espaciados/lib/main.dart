@@ -14,7 +14,7 @@ class SpacedItemsList extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        cardTheme: CardTheme(color: Color.fromARGB(255, 239, 54, 54)),
+        cardTheme: const CardTheme(color: Color.fromARGB(255, 239, 54, 54)),
         useMaterial3: true,
       ),
       home: Scaffold(
